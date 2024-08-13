@@ -1,0 +1,64 @@
+main h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.box div{
+    width: 380px;
+    height: 516px;
+}
+
+.box div h3{
+    font-family: Mulish;
+font-size: 21px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+}
+
+a{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+main button{
+    width: 200px;
+    height: 56px;
+    margin-right: 40%;
+    border-radius: 50px;
+    color: rgb(35, 35, 137);
+    font-weight: 900;
+    border: 2px solid blue;
+    background: none;
+}
+
+main button:hover{
+    background: blue;
+}
+
+footer{
+    height: 432px;
+    background-color: rgb(35, 181, 181);
+}
+
+.bir{
+    width: 386px;
+    height: 140px;
+    color: white;
+}
+
+li{
+    color: white;
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
